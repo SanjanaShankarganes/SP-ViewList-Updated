@@ -151,7 +151,7 @@ function App() {
     <div className='mx-5 my-2 viewDiv'>
       <p className="h1 text-center  mt-2 mb-3">{headerText} Station</p>
       <div className="row mb-5" id="sp-filters">
-        <div className="col-sm-3">
+        <div className="col-lg-3 my-2">
           <label htmlFor="placeSelect" className="me-sm-2  mb-2">Sub Division :</label>
           <select
             id="placeSelect"
@@ -168,7 +168,7 @@ function App() {
           </select>
         </div>
 
-        <div className="col-sm-3">
+        <div className="col-lg-3 my-2">
           <label htmlFor="subPlaceSelect" className="me-sm-2 mb-2">Police Station :</label>
           <select
             id="subPlaceSelect"
@@ -185,7 +185,7 @@ function App() {
           </select>
         </div>
 
-        <div className="col-sm-2">
+        <div className="col-lg-2 my-2">
           <label htmlFor="statusSelect" className="me-sm-2 mb-2">Status :</label>
           <select
             id="statusSelect"
@@ -199,7 +199,7 @@ function App() {
           </select>
         </div>
 
-        <div className="col-sm-2">
+        <div className="col-lg-2 my-2">
           <label htmlFor="typeSelect" className="me-sm-2 mb-2">Type :</label>
           <select
             id="typeSelect"
@@ -214,7 +214,7 @@ function App() {
           </select>
         </div>
 
-        <div className="col-sm-2">
+        <div className="col-lg-2 my-2">
           <label htmlFor="dateInput" className="me-sm-2  mb-2">Date :</label>
           <input
             id="dateInput"
