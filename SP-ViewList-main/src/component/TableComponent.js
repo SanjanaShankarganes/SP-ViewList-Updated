@@ -149,17 +149,17 @@ function App() {
 
   return (
     <div className='mx-5 my-2 viewDiv'>
-      <p className="h1 text-center mb-3">{headerText} Station</p>
+      <p className="h1 text-center  mt-2 mb-3">{headerText} Station</p>
       <div className="row mb-5" id="sp-filters">
-        <div className="col-sm-3 d-flex flex-column flex-sm-row align-items-center">
-          <label htmlFor="placeSelect" className="me-sm-2 mb-2 mb-sm-0">Sub-Division:</label>
+        <div className="col-sm-3">
+          <label htmlFor="placeSelect" className="me-sm-2  mb-2">Sub Division :</label>
           <select
             id="placeSelect"
             className="form-select"
             value={selectedPlace}
             onChange={handlePlaceChange}
           >
-            <option value="">Select Sub-Division</option>
+            <option value="">Select Sub Division</option>
             {places.map((place) => (
               <option key={place.name} value={place.name}>
                 {place.name}
@@ -168,8 +168,8 @@ function App() {
           </select>
         </div>
 
-        <div className="col-sm-3 d-flex flex-column flex-sm-row align-items-center">
-          <label htmlFor="subPlaceSelect" className="me-sm-2 mb-2 mb-sm-0">Police Station:</label>
+        <div className="col-sm-3">
+          <label htmlFor="subPlaceSelect" className="me-sm-2 mb-2">Police Station :</label>
           <select
             id="subPlaceSelect"
             className="form-select"
@@ -185,8 +185,8 @@ function App() {
           </select>
         </div>
 
-        <div className="col-sm-3 d-flex flex-column flex-sm-row align-items-center">
-          <label htmlFor="statusSelect" className="me-sm-2 mb-2 mb-sm-0">Status:</label>
+        <div className="col-sm-2">
+          <label htmlFor="statusSelect" className="me-sm-2 mb-2">Status :</label>
           <select
             id="statusSelect"
             className="form-select"
@@ -199,8 +199,8 @@ function App() {
           </select>
         </div>
 
-        <div className="col-sm-3 d-flex flex-column flex-sm-row align-items-center">
-          <label htmlFor="typeSelect" className="me-sm-2 mb-2 mb-sm-0">Type:</label>
+        <div className="col-sm-2">
+          <label htmlFor="typeSelect" className="me-sm-2 mb-2">Type :</label>
           <select
             id="typeSelect"
             className="form-select"
@@ -214,8 +214,8 @@ function App() {
           </select>
         </div>
 
-        <div className="col-sm-3 d-flex flex-column flex-sm-row align-items-center">
-          <label htmlFor="dateInput" className="me-sm-2 mb-2 mb-sm-0">Date :</label>
+        <div className="col-sm-2">
+          <label htmlFor="dateInput" className="me-sm-2  mb-2">Date :</label>
           <input
             id="dateInput"
             type="date"

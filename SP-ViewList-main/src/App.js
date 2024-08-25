@@ -9,11 +9,11 @@ function App() {
       <header className="App-header">
       <div className='d-flex mx-4 align-items-center'>
        <img src={img} alt="tn police logo" id='policeLogo'></img>
-       <p className='h1 mx-3'> District Police</p></div>
+       <p className='h1 mx-4'> District Police</p></div>
        <img src={banner} id="nav_banner"></img>
       </header>
       <div className='body'>
-      <h1 className="h1 text-center mt-4">(SP view )Idol Immersion Records</h1>
+      <h1 className="h1 text-center mt-4">( SP view ) Idol Immersion Records</h1>
       <TableComponent /></div>
     </div>
   );

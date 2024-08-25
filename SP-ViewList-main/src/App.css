@@ -12,12 +12,16 @@
     display: flex;
     background-color:#002147;
     color: white;
-    letter-spacing: 3px !important;
-    font-weight: bold !important;
+    
+  
     align-items: center;
     justify-content: space-between;
   }
-.h1 {
+  .App-header p{
+    letter-spacing: 5px !important;
+    font-weight: bold !important; 
+  }
+  .h1 {
   text-align: center;
   letter-spacing: 2px;
 }
